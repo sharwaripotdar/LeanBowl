@@ -1,0 +1,461 @@
+[
+  {
+ "id": 1,
+  "name": "Paneer Fry",
+  "type": "veg",
+  "image": "images/paneerFry.jpeg",
+  "summary": "A protein-rich snack made from marinated paneer, besan, curd, and crunchy peanuts.",
+  "method": "Marinate paneer in curd, besan, and spices. Shallow fry until golden and sprinkle roasted peanuts.",
+  "source": "Paneer",
+  "ingredients": [
+     { "name": "Paneer", "quantity": 200, "unit": "g", "protein": 40 },
+    { "name": "Besan", "quantity": 20, "unit": "g", "protein": 5 },
+    { "name": "Curd", "quantity": 100, "unit": "g", "protein": 4 },
+    { "name": "Peanuts", "quantity": 10, "unit": "g", "protein": 2.5 },
+     { "name": "Spices (Turmeric, Red Chili, Coriander, Garam Masala, Cumin, Salt)"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tofu Salad",
+    "type": "veg",
+    "image": "images/TofuSalad.jpeg",
+    "summary": "A fresh and filling salad with tofu, chickpeas, and spinach — perfect for a protein-packed lunch.",
+   "method": "Cut tofu into cubes and lightly sauté until golden. In a large bowl, combine sautéed tofu, boiled chickpeas, fresh spinach, chopped onions, tomatoes, and cucumbers. Sprinkle red chili powder, coriander, garam masala, cumin, and salt. Squeeze fresh lemon juice over the mix and toss everything well. Serve chilled or at room temperature.",
+    "source": "Tofu",
+    "ingredients": [
+      { "name": "Tofu", "quantity": 150, "unit": "g", "protein": 24 },
+      { "name": "Chickpeas", "quantity": 100, "unit": "g", "protein": 19 },
+      { "name": "Spinach", "quantity": 50, "unit": "g", "protein": 3 },
+      { "name": "Veggies (Onion, Tomato, Cucumber)" },
+      {"name": "Spices (Red Chili, Coriander, Garam Masala, Cumin, Salt, Lemon)"}
+      ]
+  },
+   {
+    "id": 3,
+    "name": "Egg Burji",
+    "type": "non-veg",
+    "image": "images/EggBurji.jpg",
+    "ingredients": [
+      { "name": "Eggs", "quantity": 3, "unit": "pcs", "protein": 18 },
+      { "name": "Onion", "quantity": 50, "unit": "g", "protein": 0.5 },
+      { "name": "Tomato", "quantity": 50, "unit": "g", "protein": 0.5 },
+       {"name": "Spices (Red Chili, Coriander, Garam Masala, Cumin, Salt)"}
+    ],
+    "summary": "A quick and protein-rich Indian scrambled egg dish made with eggs, onions, and tomatoes.",
+    "source": "Eggs",
+    "method": "Sauté chopped onions and tomatoes, add beaten eggs, and cook while stirring until scrambled.Sprinkle red chili powder, coriander, garam masala, cumin, and salt."
+  },
+ {
+  "id": 4,
+  "name": "Chicken Stir Fry",
+  "type": "non-veg",
+  "image": "images/ChickenStirFry.jpeg",
+  "ingredients": [
+    { "name": "Chicken Breast", "quantity": 150, "unit": "g", "protein": 35 },
+    { "name": "Broccoli", "quantity": 50, "unit": "g", "protein": 1.5 },
+    { "name": "Bell Pepper", "quantity": 50, "unit": "g", "protein": 0.8 },
+    { "name": "Spices (Garlic, Ginger, Red Chili Powder, Cumin, Black Pepper, Salt, Lemon Juice)" }
+  ],
+  "summary": "A lean and colorful stir fry packed with protein and fiber, spiced with Indian flavors — perfect for a healthy meal.",
+  "source": "Chicken",
+  "method": "Cut chicken breast into thin strips. In a bowl, marinate with garlic paste, ginger, red chili powder, cumin, black pepper, salt, and a splash of lemon juice for 15 minutes. Heat oil in a pan and stir-fry the marinated chicken until it turns golden and is cooked through. Add chopped broccoli and bell peppers, and cook for 3–4 minutes until vegetables are tender-crisp. Toss everything together and serve hot."
+},
+ {
+    "id": 5,
+    "name": "Soya Bhel",
+    "type": "veg",
+    "image": "images/SoyaBhel.jpeg",
+    "ingredients": [
+      { "name": "Soya Chunks", "quantity": 50, "unit": "g", "protein": 26 },
+      { "name": "Onion", "quantity": 30, "unit": "g", "protein": 0.3 },
+      { "name": "Tomato", "quantity": 30, "unit": "g", "protein": 0.3 },
+      { "name": "Cucumber", "quantity": 30, "unit": "g", "protein": 0.3 },
+      {"name": "Spices (Red Chili, Coriander, Garam Masala, Cumin, Salt)"}
+    ],
+    "summary": "A healthy twist to classic bhel, packed with protein-rich soya chunks and fresh veggies.",
+    "source": "Soya",
+    "method": "Boil and chop soya chunks, then mix with chopped onion, tomato, and spices. Serve chilled or at room temperature."
+  },
+  {
+    "id": 6,
+    "name": "Greek Yogurt Parfait",
+    "type": "veg",
+    "image": "images/GreekYogurtParfait.jpeg",
+    "ingredients": [
+      { "name": "Greek Yogurt", "quantity": 150, "unit": "g", "protein": 15 },
+      { "name": "Granola", "quantity": 30, "unit": "g", "protein": 3 },
+      { "name": "Berries", "quantity": 50, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A quick and refreshing high-protein snack made with creamy yogurt, crunchy granola, and fresh berries.",
+    "source": "Greek Yogurt",
+    "method": "Layer Greek yogurt, granola, and berries in a glass or bowl. Serve immediately."
+  },
+ {
+    "id": 7,
+    "name": "Lentil Soup",
+    "image": "images/LentilSoup.jpeg",
+    "ingredients": [
+      { "name": "Lentils", "quantity": 100, "unit": "g", "protein": 25 },
+      { "name": "Carrots", "quantity": 50, "unit": "g", "protein": 0.6 },
+      { "name": "Celery", "quantity": 50, "unit": "g", "protein": 0.4 }
+    ],
+    "summary": "A comforting and nutritious soup made with protein-rich lentils and fresh vegetables.",
+    "source": "Lentils",
+    "method": "Simmer lentils with chopped carrots and celery until tender. Season with salt and pepper. Serve warm."
+  },
+  {
+    "id": 8,
+    "name": "Grilled Salmon",
+    "image": "images/GrilledSalmon.jpeg",
+    "ingredients": [
+      { "name": "Salmon Fillet", "quantity": 120, "unit": "g", "protein": 27 },
+      { "name": "Lemon Juice", "quantity": 10, "unit": "ml", "protein": 0 },
+      { "name": "Olive Oil", "quantity": 5, "unit": "ml", "protein": 0 }
+    ],
+    "summary": "A delicious, high-protein grilled salmon fillet with a hint of lemon and olive oil.",
+    "source": "Salmon",
+    "method": "Marinate salmon with lemon juice and olive oil. Grill until cooked through and flaky."
+  },
+  {
+    "id": 9,
+    "name": "Chickpea Wrap",
+    "image": "images/ChickpeaWrap.jpeg",
+    "ingredients": [
+      { "name": "Chickpeas", "quantity": 100, "unit": "g", "protein": 19 },
+      { "name": "Whole Wheat Tortilla", "quantity": 1, "unit": "pcs", "protein": 5 },
+      { "name": "Lettuce", "quantity": 30, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A wholesome and tasty wrap loaded with protein-rich chickpeas and fresh veggies.",
+    "source": "Chickpeas",
+    "method": "Mash chickpeas with spices. Spread on whole wheat tortilla, add lettuce, and roll up. Serve fresh."
+  },
+  {
+    "id": 10,
+    "name": "Turkey Omelette",
+    "image": "images/TurkeyOmelette.jpeg",
+    "ingredients": [
+      { "name": "Eggs", "quantity": 2, "unit": "pcs", "protein": 12 },
+      { "name": "Turkey Breast", "quantity": 50, "unit": "g", "protein": 13 },
+      { "name": "Cheese", "quantity": 30, "unit": "g", "protein": 6 }
+    ],
+    "summary": "A protein-packed omelette combining eggs and lean turkey breast, topped with melted cheese.",
+    "source": "Eggs",
+    "method": "Beat eggs and pour into a hot pan. Add cooked diced turkey breast and cheese on top. Cook until cheese melts and eggs are set. Fold and serve hot."
+  },
+  {
+    "id": 11,
+    "name": "Paneer Bhurji",
+    "image": "images/PaneerBhurji.jpeg",
+    "ingredients": [
+      { "name": "Paneer", "quantity": 150, "unit": "g", "protein": 30 },
+      { "name": "Onion", "quantity": 50, "unit": "g", "protein": 0.5 },
+      { "name": "Tomato", "quantity": 50, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A spicy and flavorful scrambled paneer dish cooked with onions and tomatoes.",
+    "source": "Paneer",
+    "method": "Crumble paneer and sauté with chopped onions and tomatoes. Add spices and cook until well combined. Serve hot with bread or roti."
+  },
+  {
+    "id": 12,
+    "name": "Tofu Stir Fry",
+    "image": "images/TofuStirFry.jpeg",
+    "ingredients": [
+      { "name": "Tofu", "quantity": 150, "unit": "g", "protein": 22 },
+      { "name": "Bell Peppers", "quantity": 50, "unit": "g", "protein": 0.8 },
+      { "name": "Onion", "quantity": 50, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A quick and healthy stir fry featuring protein-rich tofu and fresh vegetables.",
+    "source": "Tofu",
+    "method": "Cube tofu and stir fry in a hot pan with sliced bell peppers and onions. Season with soy sauce and spices. Cook until veggies are tender-crisp."
+  },
+  {
+    "id": 13,
+    "name": "Grilled Chicken Salad",
+    "image": "images/GrilledChickenSalad.jpeg",
+    "ingredients": [
+      { "name": "Chicken Breast", "quantity": 200, "unit": "g", "protein": 54 },
+      { "name": "Lettuce", "quantity": 50, "unit": "g", "protein": 0.5 },
+      { "name": "Olive Oil", "quantity": 10, "unit": "ml", "protein": 0 }
+    ],
+    "summary": "A healthy salad featuring grilled chicken breast served over fresh lettuce, drizzled with olive oil.",
+    "source": "Chicken",
+    "method": "Grill the chicken breast until cooked through. Slice and serve on a bed of fresh lettuce. Drizzle with olive oil and season as desired."
+  },
+  {
+    "id": 14,
+    "name": "Chickpea Chaat",
+    "image": "images/Chickpea Chaat.jpeg",
+    "ingredients": [
+      { "name": "Chickpeas", "quantity": 100, "unit": "g", "protein": 19 },
+      { "name": "Onion", "quantity": 30, "unit": "g", "protein": 0.3 },
+      { "name": "Tomato", "quantity": 30, "unit": "g", "protein": 0.3 }
+    ],
+    "summary": "A tangy and spicy Indian snack made with boiled chickpeas, onions, and tomatoes.",
+    "source": "Chickpeas",
+    "method": "Mix boiled chickpeas with chopped onions and tomatoes. Add chaat masala, lemon juice, and fresh coriander. Serve chilled."
+  },
+  {
+    "id": 15,
+    "name": "Soya Masala",
+    "image": "images/SoyaMasala.jpeg",
+    "ingredients": [
+      { "name": "Soya Chunks", "quantity": 60, "unit": "g", "protein": 31 },
+      { "name": "Onion", "quantity": 40, "unit": "g", "protein": 0.4 },
+      { "name": "Tomato", "quantity": 40, "unit": "g", "protein": 0.4 }
+    ],
+    "summary": "A flavorful and spicy soya chunks curry cooked with onions and tomatoes.",
+    "source": "Soya",
+    "method": "Soak and boil soya chunks until soft. Sauté onions and tomatoes with spices, then add soya chunks and cook until well blended."
+  },
+  {
+    "id": 16,
+    "name": "Mutton Curry",
+    "image": "images/MuttonCurry.jpeg",
+    "ingredients": [
+      { "name": "Mutton", "quantity": 200, "unit": "g", "protein": 50 },
+      { "name": "Onion", "quantity": 60, "unit": "g", "protein": 0.6 },
+      { "name": "Spices", "quantity": 10, "unit": "g", "protein": 0 }
+    ],
+    "summary": "A rich and hearty mutton curry cooked with aromatic spices and onions.",
+    "source": "Mutton",
+    "method": "Sauté onions and spices until fragrant. Add mutton pieces and cook until browned. Simmer with water until tender and the gravy thickens."
+  },
+  {
+    "id": 17,
+    "name": "Lentil Khichdi",
+    "image": "images/LentilKhichdi.jpeg",
+    "ingredients": [
+      { "name": "Lentils", "quantity": 100, "unit": "g", "protein": 25 },
+      { "name": "Rice", "quantity": 50, "unit": "g", "protein": 3 },
+      { "name": "Ghee", "quantity": 5, "unit": "g", "protein": 0 }
+    ],
+    "summary": "A comforting and nutritious one-pot dish combining lentils and rice, flavored with ghee.",
+    "source": "Lentils",
+    "method": "Cook lentils and rice together with water and salt until soft. Finish by stirring in ghee for flavor and richness."
+  },
+  {
+    "id": 18,
+    "name": "Moong Dal Chilla",
+    "type": "veg",
+    "image": "images/MoongDalChilla.jpeg",
+    "ingredients": [
+      { "name": "Moong Dal", "quantity": 100, "unit": "g", "protein": 24 },
+      { "name": "Onion", "quantity": 30, "unit": "g", "protein": 0.3 },
+      { "name": "Green Chili", "quantity": 5, "unit": "g", "protein": 0.1 }
+    ],
+    "summary": "A savory Indian pancake made from ground moong dal batter with onions and green chili.",
+    "source": "Lentil",
+    "method": "Soak and grind moong dal into a smooth batter. Mix in chopped onions and green chili. Cook like a pancake on a hot griddle until golden."
+  },
+ {
+    "id": 19,
+    "name": "Sprouts Salad",
+    "type": "veg",
+    "image": "images/SproutsSalad.jpeg",
+    "ingredients": [
+      { "name": "Moong Sprouts", "quantity": 100, "unit": "g", "protein": 7 },
+      { "name": "Tomato", "quantity": 30, "unit": "g", "protein": 0.3 },
+      { "name": "Cucumber", "quantity": 30, "unit": "g", "protein": 0.2 }
+    ],
+    "summary": "A fresh and crunchy salad packed with protein-rich moong sprouts and fresh veggies.",
+    "source": "Sprouts",
+    "method": "Mix moong sprouts with chopped tomatoes and cucumbers. Season with salt, lemon juice, and optional spices. Serve chilled."
+  },
+  {
+    "id": 20,
+    "name": "Peanut Sundal",
+    "type": "veg",
+    "image": "images/PeanutSundal.jpeg",
+    "ingredients": [
+      { "name": "Peanuts", "quantity": 50, "unit": "g", "protein": 13 },
+      { "name": "Coconut", "quantity": 10, "unit": "g", "protein": 0.5 },
+      { "name": "Mustard Seeds", "quantity": 2, "unit": "g", "protein": 0.2 }
+    ],
+    "summary": "A traditional South Indian snack made with boiled peanuts tempered with mustard seeds and garnished with coconut.",
+    "source": "Peanuts",
+    "method": "Boil peanuts until soft. In a pan, heat oil and temper mustard seeds. Add peanuts and sauté briefly. Garnish with grated coconut and serve."
+  },
+  {
+    "id": 21,
+    "name": "Rajma Rice",
+    "type": "veg",
+    "image": "images/RajmaRice.jpeg",
+    "ingredients": [
+      { "name": "Rajma (Kidney Beans)", "quantity": 100, "unit": "g", "protein": 24 },
+      { "name": "Rice", "quantity": 100, "unit": "g", "protein": 6 },
+      { "name": "Onion", "quantity": 50, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A wholesome combination of protein-rich kidney beans cooked with rice and onions.",
+    "source": "Rajma (Kidney Beans)",
+    "method": "Cook soaked rajma until soft. Sauté onions and mix with cooked rice and rajma. Simmer briefly to blend flavors and serve hot."
+  },
+  {
+    "id": 22,
+    "name": "Chickpea Tikki",
+    "type": "veg",
+    "image": "images/ChickpeaTikki.jpeg",
+    "ingredients": [
+      { "name": "Chickpeas", "quantity": 100, "unit": "g", "protein": 19 },
+      { "name": "Potato", "quantity": 50, "unit": "g", "protein": 1 },
+      { "name": "Coriander", "quantity": 5, "unit": "g", "protein": 0.1 }
+    ],
+    "summary": "Crispy and flavorful patties made from mashed chickpeas and potatoes, flavored with fresh coriander.",
+    "source": "Chickpeas",
+    "method": "Mash boiled chickpeas and potatoes. Mix with chopped coriander and spices. Shape into tikkis and shallow fry until golden brown."
+  },
+   {
+    "id": 23,
+    "name": "Besan Cheela",
+    "type": "veg",
+    "image": "images/BesanCheela.jpeg",
+    "ingredients": [
+      { "name": "Besan (Gram Flour)", "quantity": 100, "unit": "g", "protein": 22 },
+      { "name": "Onion", "quantity": 30, "unit": "g", "protein": 0.3 },
+      { "name": "Coriander", "quantity": 5, "unit": "g", "protein": 0.1 }
+    ],
+    "summary": "A savory Indian pancake made from gram flour, onions, and fresh coriander, rich in protein and fiber.",
+    "source": "Besan",
+    "method": "Mix besan with water to make a batter, add chopped onions and coriander. Pour batter on a hot pan and cook both sides until golden. Serve hot with chutney."
+  },
+  {
+    "id": 24,
+    "name": "Tofu Bhurji",
+    "type": "veg",
+    "image": "images/TofuBhurji.jpeg",
+    "ingredients": [
+      { "name": "Tofu", "quantity": 150, "unit": "g", "protein": 22 },
+      { "name": "Tomato", "quantity": 50, "unit": "g", "protein": 0.5 },
+      { "name": "Onion", "quantity": 50, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A flavorful scrambled tofu dish cooked with onions and tomatoes, a vegan alternative rich in protein.",
+    "source": "Tofu",
+    "method": "Crumble tofu and sauté with chopped onions and tomatoes. Add spices and cook until the mixture is dry and well blended. Serve warm."
+  },
+  {
+    "id": 25,
+    "name": "Mixed Lentil Dosa",
+    "type": "veg",
+    "image": "images/MixedLentilDosa.jpeg",
+    "ingredients": [
+      { "name": "Urad Dal", "quantity": 50, "unit": "g", "protein": 12 },
+      { "name": "Chana Dal", "quantity": 50, "unit": "g", "protein": 11 },
+      { "name": "Rice", "quantity": 50, "unit": "g", "protein": 3 }
+    ],
+    "summary": "A crispy South Indian crepe made from a batter of mixed lentils and rice, packed with protein and nutrients.",
+    "source": "Lentil",
+    "method": "Soak lentils and rice, grind into a smooth batter, ferment overnight. Spread batter on a hot griddle and cook until crisp on both sides. Serve with chutney or sambar."
+  },
+  {
+    "id": 26,
+    "name": "Boiled Egg Salad",
+    "type": "non-veg",
+    "image": "images/BoiledEggSalad.jpeg",
+    "ingredients": [
+      { "name": "Eggs", "quantity": 2, "unit": "pcs", "protein": 12 },
+      { "name": "Lettuce", "quantity": 50, "unit": "g", "protein": 0.5 },
+      { "name": "Tomato", "quantity": 50, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A simple and nutritious salad combining boiled eggs with fresh lettuce and tomatoes.",
+    "source": "Eggs",
+    "method": "Boil eggs until hard-cooked, peel and chop. Toss with chopped lettuce and tomatoes. Add salt, pepper, and a dressing of your choice. Serve chilled."
+  },
+  {
+    "id": 27,
+    "name": "Grilled Chicken Breast",
+    "type": "non-veg",
+    "image": "images/GrilledChickenBreast.jpeg",
+    "ingredients": [
+      { "name": "Chicken Breast", "quantity": 200, "unit": "g", "protein": 54 },
+      { "name": "Olive Oil", "quantity": 5, "unit": "ml", "protein": 0 },
+      { "name": "Herbs", "quantity": 5, "unit": "g", "protein": 0 }
+    ],
+    "summary": "Juicy and tender grilled chicken breast seasoned with herbs and olive oil, high in protein and low in fat.",
+    "source": "Chicken",
+    "method": "Marinate chicken breast with olive oil and herbs. Grill on medium heat until cooked through and slightly charred. Serve hot with vegetables or salad."
+  },
+  {
+    "id": 28,
+    "name": "Boiled Mutton Soup",
+    "type": "non-veg",
+    "image": "images/BoiledMuttonSoup.jpeg",
+    "ingredients": [
+      { "name": "Mutton (Lean)", "quantity": 150, "unit": "g", "protein": 38 },
+      { "name": "Onion", "quantity": 50, "unit": "g", "protein": 0.5 },
+      { "name": "Spices", "quantity": 5, "unit": "g", "protein": 0 }
+    ],
+    "summary": "A hearty and nourishing mutton soup made by boiling lean mutton with onions and spices.",
+    "source": "Mutton",
+    "method": "Boil lean mutton with chopped onions and spices in water for 2-3 hours until tender. Strain and serve hot as a soup."
+  },
+  {
+    "id": 29,
+    "name": "Egg White Omelette",
+    "type": "non-veg",
+    "image": "images/EggWhiteOmelette.jpeg",
+    "ingredients": [
+      { "name": "Egg Whites", "quantity": 4, "unit": "pcs", "protein": 14 },
+      { "name": "Spinach", "quantity": 50, "unit": "g", "protein": 3 },
+      { "name": "Tomato", "quantity": 30, "unit": "g", "protein": 0.3 }
+    ],
+    "summary": "A healthy egg white omelette filled with fresh spinach and tomatoes, low in fat and rich in protein.",
+    "source": "Eggs",
+    "method": "Whisk egg whites and pour into a hot non-stick pan. Add chopped spinach and tomato on top. Cook until set and fold. Serve warm."
+  },
+  {
+    "id": 30,
+    "name": "Steamed Fish with Veggies",
+    "type": "non-veg",
+    "image": "images/SteamedFish.jpeg",
+    "ingredients": [
+      { "name": "Fish Fillet", "quantity": 150, "unit": "g", "protein": 30 },
+      { "name": "Broccoli", "quantity": 50, "unit": "g", "protein": 1.5 },
+      { "name": "Carrots", "quantity": 50, "unit": "g", "protein": 0.6 }
+    ],
+    "summary": "Light and nutritious steamed fish served with steamed broccoli and carrots, a perfect high-protein meal.",
+    "source": "Fish",
+    "method": "Steam fish fillet until cooked through. Steam broccoli and carrots separately. Serve fish on a bed of steamed veggies with lemon juice or seasoning."
+  },
+   {
+    "id": 31,
+    "name": "Chicken Lettuce Wrap",
+    "type": "non-veg",
+    "image": "images/ChickenLettuceWrap.jpeg",
+    "ingredients": [
+      { "name": "Chicken Breast (minced)", "quantity": 100, "unit": "g", "protein": 27 },
+      { "name": "Lettuce Leaves", "quantity": 50, "unit": "g", "protein": 0.5 },
+      { "name": "Bell Pepper", "quantity": 30, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A light and fresh wrap using minced chicken and crunchy vegetables, served in crisp lettuce leaves.",
+    "source": "Chicken",
+    "method": "Cook minced chicken with diced bell pepper until fully cooked. Spoon mixture onto washed lettuce leaves and wrap. Serve immediately."
+  },
+  {
+    "id": 32,
+    "name": "Egg Chicken Scramble",
+    "type": "non-veg",
+    "image": "images/EggChickenScramble.jpeg",
+    "ingredients": [
+      { "name": "Eggs", "quantity": 2, "unit": "pcs", "protein": 12 },
+      { "name": "Chicken Breast", "quantity": 50, "unit": "g", "protein": 13 },
+      { "name": "Onion", "quantity": 30, "unit": "g", "protein": 0.3 }
+    ],
+    "summary": "Protein-packed scrambled eggs with tender chicken and sautéed onions, perfect for a nutritious meal.",
+    "source": "Eggs",
+    "method": "Sauté onions and diced chicken breast until cooked. Whisk eggs and add to pan, stirring continuously until eggs are cooked through. Serve hot."
+  },
+  {
+    "id": 33,
+    "name": "Tuna Salad Bowl",
+    "type": "non-veg",
+    "image": "images/TunaSaladBowl .jpeg",
+    "ingredients": [
+      { "name": "Tuna (Canned in Water)", "quantity": 100, "unit": "g", "protein": 28 },
+      { "name": "Cucumber", "quantity": 50, "unit": "g", "protein": 0.3 },
+      { "name": "Tomato", "quantity": 50, "unit": "g", "protein": 0.5 }
+    ],
+    "summary": "A refreshing salad bowl featuring protein-rich tuna with crisp cucumbers and tomatoes.",
+    "source": "Tuna",
+    "method": "Mix drained tuna with chopped cucumber and tomato. Season with salt, pepper, and lemon juice if desired. Serve chilled."
+  }
+]
